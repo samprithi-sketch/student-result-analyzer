@@ -1,4 +1,4 @@
-# student-result-analyzer
+# Student-Result-Analyzer
 
 ## Description
 A console-based student result management system built using Python and SQLite. The application manages student academic records, computes results, assigns grades and generates insightful reports and visual charts.
