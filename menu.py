@@ -1,5 +1,6 @@
 from student import add_student, view_all_students, search_student, delete_student
 from reports import show_full_report
+from visualizer import show_charts
 
 def show_menu():
     while True:
@@ -13,6 +14,7 @@ def show_menu():
         print("  4. Full Report")
         print("  ------------------------------")
         print("  5. Delete Student")
+        print("  6. Show Charts")
         print("  0. Exit")
         print("--------------------------------")
 
@@ -30,6 +32,8 @@ def show_menu():
         elif choice == "5":
             student_id = input("  Enter Student ID to delete: ")
             delete_student(student_id)
+        elif choice == "6":
+            show_charts()
         elif choice == "0":
             print("\n  Exiting...")
             break

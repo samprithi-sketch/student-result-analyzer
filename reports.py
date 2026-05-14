@@ -20,12 +20,12 @@ def show_class_summary():
         else:
             passed += 1
 
-    class_average = round(total_average / total_students)
+    student_average = round(total_average / total_students)
 
     print(f"  Total Students : {total_students}")
     print(f"  Passed         : {passed}")
     print(f"  Failed         : {failed}")
-    print(f"  Class Average  : {class_average}%")
+    print(f"  Student Average  : {student_average}%")
 
 def show_topper_list():
     print("\n--- Topper List ---")
