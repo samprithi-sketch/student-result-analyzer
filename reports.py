@@ -32,7 +32,7 @@ def show_topper_list():
 
     conn = sqlite3.connect('student_results.db')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM students ORDER BY total DESC LIMIT 5")
+    cursor.execute("SELECT * FROM students WHERE grade != 'F' ORDER BY total DESC LIMIT 5")
     rows = cursor.fetchall()
     conn.close()
 
