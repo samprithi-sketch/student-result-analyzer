@@ -49,4 +49,11 @@ Step 5 - Run the application:
 - sqlite3     (built into Python, no installation needed)
 
 ## Screenshots
-<img width="1920" height="1080" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/50de8c62-480d-434e-850c-6b9b65293a04" />
+<img width="1920" height="1017" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/c5a99f62-30cd-4cc7-9bef-c61f0e1732bf" />
+
+
+<img width="1920" height="1017" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/3425b77d-dd44-4220-b086-fff22189e496" />
+
+
+<img width="1920" height="1022" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/f61e523b-43d5-4888-adc9-62237ef33263" />
+
