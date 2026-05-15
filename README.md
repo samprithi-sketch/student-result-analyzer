@@ -47,3 +47,6 @@ Step 5 - Run the application:
 ## Dependencies
 - matplotlib  (install using pip install matplotlib)
 - sqlite3     (built into Python, no installation needed)
+
+## Screenshots
+<img width="1920" height="1080" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/50de8c62-480d-434e-850c-6b9b65293a04" />
