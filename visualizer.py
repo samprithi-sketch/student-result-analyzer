@@ -22,7 +22,7 @@ def show_charts():
         totals.append(row[6])
         grades.append(row[8])
 
-    # Chart 1 - Bar chart (total marks of each student)
+   
     plt.figure(figsize=(8, 5))
     plt.bar(names, totals, color='blue')
     plt.title("Total Marks of Each Student")
@@ -32,7 +32,7 @@ def show_charts():
     plt.tight_layout()
     plt.show()
 
-    # Chart 2 - Pie chart (grade distribution)
+    
     grade_counts = {}
     for grade in grades:
         if grade in grade_counts:
